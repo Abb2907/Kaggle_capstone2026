@@ -17,19 +17,6 @@ This isn't a simple "chat with your PDF" wrapper. It is a multi-step **Plan-and-
 3. **Synthesis & Citation:** It drafts highly accurate responses, firmly grounded *only* in retrieved context, complete with source citations.
 4. **Self-Reflection & Human-in-the-Loop:** The agent assigns a confidence score to its own answers. Low-confidence answers (e.g., net-new questions) are automatically flagged for SME review, ensuring 0% hallucination risk on critical legal/compliance questions.
 
-## Repository Structure & Documentation
-Please see the `docs/` folder for comprehensive documentation covering the entire system lifecycle:
-- **01_problem_discovery.md:** Problem identification and business impact.
-- **02_product_requirements.md:** PRD, user personas, and success metrics.
-- **03_solution_design.md:** Architecture diagrams (Next.js, FastAPI, Vector DB).
-- **04_ai_agent_design.md:** Agent reasoning strategy and state management.
-- **05_tech_stack.md:** Justification for the chosen technologies.
-- **06_security.md:** Authentication, RBAC, and threat prevention.
-- **07_ai_safety.md:** Hallucination mitigation and prompt injection defenses.
-- **08_performance.md:** Optimization and scalability strategies.
-- **11_ai_evaluation.md:** Evaluation metrics and business impact measurement.
-- **12_observability.md:** Logging, tracing, and monitoring.
-
 ## Getting Started
 
 ### Prerequisites
